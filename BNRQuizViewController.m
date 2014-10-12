@@ -56,9 +56,26 @@
 
 - (IBAction)showQuestion:(id)sender {
     
+    // Step to the next question
+    self.currentQuestionIndex++;
+    
+    // Am I past the last question?
+    if (self.currentQuestionIndex == [self.questions count]) {
+        self.currentQuestionIndex = 0;
+    }
+    
+    // Get the string at the index in the questions array
+    NSString *question = self.questions[self.currentQuestionIndex];
+    
+    // Display the string in the questions label
+    self.questionLabel.text = question;
+    
+    // Reset the answer label text
+    self.answerLabel.text = @"???";
 }
 
 - (IBAction) showAnswer:(id)sender {
+    
     
 }
 
