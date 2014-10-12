@@ -31,11 +31,13 @@
         // Create two arrays filled with questions and answers and make the pointers point to them
         self.questions = @[@"Who is your oldest nephew?",
                            @"Who is the greatest tennis player of all time?",
-                           @"What are we eating for dinner?"];
+                           @"What are we eating for dinner?",
+                           @"What should I eat for lunch?"];
         
         self.answers = @[@"Maximus",
                          @"Roger Federer",
-                         @"Shrimp"];
+                         @"Shrimp",
+                         @"Lobster Roll"];
     }
     
     // Return the address of the new object
