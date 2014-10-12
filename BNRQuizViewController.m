@@ -22,6 +22,26 @@
 
 @implementation BNRQuizViewController
 
+-(instancetype) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    // Call the init method implemented by the superclass
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    
+    if (self) {
+        // Create two arrays filled with questions and answers and make the pointers point to them
+        self.questions = @[@"Who is your oldest nephew?",
+                           @"Who is the greatest tennis player of all time?",
+                           @"What are we eating for dinner?"];
+        
+        self.answers = @[@"Maximus",
+                         @"Roger Federer",
+                         @"Shrimp"];
+    }
+    
+    // Return the address of the new object
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
