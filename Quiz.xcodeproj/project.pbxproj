@@ -14,6 +14,8 @@
 		43B39CCC19EAD47D0056FCCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B39CCB19EAD47D0056FCCA /* Images.xcassets */; };
 		43B39CCF19EAD47D0056FCCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43B39CCD19EAD47D0056FCCA /* LaunchScreen.xib */; };
 		43B39CDB19EAD47D0056FCCA /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B39CDA19EAD47D0056FCCA /* QuizTests.m */; };
+		43B39CE719EAD48D0056FCCA /* BNRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B39CE519EAD48D0056FCCA /* BNRQuizViewController.m */; };
+		43B39CE819EAD48D0056FCCA /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43B39CE619EAD48D0056FCCA /* BNRQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		43B39CD419EAD47D0056FCCA /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B39CD919EAD47D0056FCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43B39CDA19EAD47D0056FCCA /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		43B39CE419EAD48D0056FCCA /* BNRQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRQuizViewController.h; path = ../BNRQuizViewController.h; sourceTree = "<group>"; };
+		43B39CE519EAD48D0056FCCA /* BNRQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRQuizViewController.m; path = ../BNRQuizViewController.m; sourceTree = "<group>"; };
+		43B39CE619EAD48D0056FCCA /* BNRQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BNRQuizViewController.xib; path = ../BNRQuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 		43B39CBD19EAD47D0056FCCA /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				43B39CE419EAD48D0056FCCA /* BNRQuizViewController.h */,
+				43B39CE519EAD48D0056FCCA /* BNRQuizViewController.m */,
+				43B39CE619EAD48D0056FCCA /* BNRQuizViewController.xib */,
 				43B39CC219EAD47D0056FCCA /* AppDelegate.h */,
 				43B39CC319EAD47D0056FCCA /* AppDelegate.m */,
 				43B39CC519EAD47D0056FCCA /* ViewController.h */,
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B39CE819EAD48D0056FCCA /* BNRQuizViewController.xib in Resources */,
 				43B39CCA19EAD47D0056FCCA /* Main.storyboard in Resources */,
 				43B39CCF19EAD47D0056FCCA /* LaunchScreen.xib in Resources */,
 				43B39CCC19EAD47D0056FCCA /* Images.xcassets in Resources */,
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B39CE719EAD48D0056FCCA /* BNRQuizViewController.m in Sources */,
 				43B39CC719EAD47D0056FCCA /* ViewController.m in Sources */,
 				43B39CC419EAD47D0056FCCA /* AppDelegate.m in Sources */,
 				43B39CC119EAD47D0056FCCA /* main.m in Sources */,

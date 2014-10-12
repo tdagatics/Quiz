@@ -10,6 +10,14 @@
 
 @interface BNRQuizViewController ()
 
+@property (nonatomic) int currentQuestionIndex;
+
+@property (nonatomic, copy) NSArray *questions;
+@property (nonatomic, copy) NSArray *answers;
+
+@property (nonatomic, weak) IBOutlet UILabel *questionLabel;
+@property (nonatomic, weak) IBOutlet UILabel *answerLabel;
+
 @end
 
 @implementation BNRQuizViewController
@@ -23,6 +31,17 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark - Actions
+
+- (IBAction)showQuestion:(id)sender {
+    
+}
+
+- (IBAction) showAnswer:(id)sender {
+    
+}
+
 
 /*
 #pragma mark - Navigation
