@@ -75,6 +75,11 @@
 }
 
 - (IBAction) showAnswer:(id)sender {
+    // What is the answer to the current question
+    NSString *answer = self.answers[self.currentQuestionIndex];
+    
+    // Display it in the answer label
+    self.answerLabel.text = answer;
     
     
 }
